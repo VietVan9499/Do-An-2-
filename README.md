@@ -16,5 +16,5 @@ Mô hình được thiết kế với các chức năng sau:
  + Mã QR của Giao Diện https://drive.google.com/file/d/1jFHXvNM8SqKmRHc8DZU28xW7pS63xzh4/view?usp=sharing
  + Mạch và Board tổng thể https://drive.google.com/file/d/1dU3Mchb-8ET0JCspO8WsTl4tpS4QfQzo/view?usp=sharing
  + Video Demo
- https://youtu.be/aOTX7CIyirA 
- https://youtu.be/FO6Vr-XjNKg
+ -https://youtu.be/aOTX7CIyirA 
+ -https://youtu.be/FO6Vr-XjNKg
