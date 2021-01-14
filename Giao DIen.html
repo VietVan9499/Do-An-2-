@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project</title>
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <!-- THƯ VIỆN CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <style>
+        .light {
+            font-size: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="text">ĐỒ ÁN</h1>
+    <h1 class="light" id="light"><i class="fas fa-dice-one"></i></h1>
+    <h1 class="rut" id="rut"><i class="fas fa-dice-one"></i></h1>
+    <button id="btnLight" type="button" class="btn btn-success">PHƠI</button>
+    <button id="btnLight1" type="button1" class="btn btn-success">RÚT</button>
+
+    <!-- END CODE -->
+    <!-- THƯ VIỆN JAVASCRIPT -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+        apiKey: "AIzaSyC_Y7UlouKYZSHcGBbXRIjfx1n4kcKDYMg",
+        authDomain: "do-an-2-2854c.firebaseapp.com",
+        projectId: "do-an-2-2854c",
+        storageBucket: "do-an-2-2854c.appspot.com",
+        messagingSenderId: "676497550282",
+        appId: "1:676497550282:web:500210357fd0b2753e7d33",
+        measurementId: "G-KSFQT839RE"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+
+        var database = firebase.database().ref('PHƠI'); 
+        //ĐỌC DỮ LIỆU TỪ DATABASE VỀ 
+        database.on('value', function (snapshot) {
+            console.log(snapshot.val().PHƠI);
+            if(snapshot.val().PHƠI == 'OFF') {
+                document.getElementById('light').classList.remove('text-warning');
+            }
+            else if(snapshot.val().PHƠI == 'ON') {
+                document.getElementById('light').classList.add('text-warning');
+            }
+        });
+      // THAY ĐỔI TRẠNG THÁI ĐÈN KHI CÓ CLICK VÀO BUTTON
+        document.getElementById('btnLight').onclick = function () {
+            if(document.getElementById('light').classList.contains('text-warning')) {
+                writeStatus('OFF');
+            }
+            else {
+                writeStatus('ON');
+            }
+        }
+       // VIẾT DỮ LIỆU LÊN DATABASE 
+        var writeStatus = function(status) {
+            database.update({
+            'state': status})
+        }
+    </script>
+</body>
+
+</html>
