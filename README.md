@@ -7,4 +7,5 @@ Mô hình được thiết kế với các chức năng sau:
  +  Điều khiển từ xa dàn phơi thông qua app Blynk
 - Do_An_2.2
  + Thêm tính năng lấy key API từ https://developer.accuweather.com/ dự đoán khả năng mưa hằng ngày, cảnh báo qua app blynk và up dữ liệu lên FireBase của Google 
- 
+- Do_An_2.3
+ + Không sử dụng  tính năng lấy key API từ https://developer.accuweather.com/ chỉ sử dụng FireBase Google
