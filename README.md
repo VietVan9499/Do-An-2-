@@ -11,12 +11,15 @@ The model is designed with the following functions:
  + Don't use get API key from https://developer.accuweather.com/ just use FireBase Google
  -----------------
  Project photo
- + Demo https://drive.google.com/file/d/12NekXsqrwJ0AZGWIlHuuYiN_kUrhYeMY/view?usp=sharing
- + App Blynk Interface https://drive.google.com/file/d/1FOEvTzb3ibzSlWccTMLT00SdCmeqGA6I/view?usp=sharing
- + QR Code of Interface https://drive.google.com/file/d/1jFHXvNM8SqKmRHc8DZU28xW7pS63xzh4/view?usp=sharing
- + Circuit and Master Board https://drive.google.com/file/d/1dU3Mchb-8ET0JCspO8WsTl4tpS4QfQzo/view?usp=sharing
- + Video Demo
+ + Demo 
+ + App Blynk Interface 
+ + QR Code of Interface
+ + Circuit and Master Board 
+ + Video Demo 
  -https://youtu.be/aOTX7CIyirA
  -https://youtu.be/FO6Vr-XjNKg
 ------------------------------------All of the information presented above was obtained entirely through the use of the Internet; I would be delighted to hear your feedback; please contact me as well. Contact us at vietnguyen942399@gmail.com. Thanks-------------------------------------------------------------------------------------------
-![IMG_7180](https://user-images.githubusercontent.com/74348080/140782387-a7a2dd9b-b491-4b9e-be43-decaa1c4c1be.PNG)
+ +App Blynk Interface 
+![IMG_7180](https://user-images.githubusercontent.com/74348080/140782771-f05462be-42ac-4d19-b4f5-e3c7017fe6a2.PNG)
+ +Circuit and Master Board 
+![Picture1](https://user-images.githubusercontent.com/74348080/140782779-d1955852-e1b3-405c-9d78-863427d5ae31.jpg)
