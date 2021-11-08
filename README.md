@@ -19,3 +19,4 @@ The model is designed with the following functions:
  -https://youtu.be/aOTX7CIyirA
  -https://youtu.be/FO6Vr-XjNKg
 ------------------------------------All of the information presented above was obtained entirely through the use of the Internet; I would be delighted to hear your feedback; please contact me as well. Contact us at vietnguyen942399@gmail.com. Thanks-------------------------------------------------------------------------------------------
+![IMG_7180](https://user-images.githubusercontent.com/74348080/140782387-a7a2dd9b-b491-4b9e-be43-decaa1c4c1be.PNG)
